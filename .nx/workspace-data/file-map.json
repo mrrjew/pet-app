@@ -1,0 +1,456 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.2.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "pet-markt-be": [
+        {
+          "file": "pet-marktt/app/pet-markt-be/.gitignore",
+          "hash": "11424931467845557677"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/dto/create-product.input.ts",
+          "hash": "11492287315979847452"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/dto/update-product.input.ts",
+          "hash": "4298671191801041506"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/entities/product.entity.ts",
+          "hash": "15321613980857683959"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/eslint.config.mjs",
+          "hash": "2624537849564014525"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/jest.config.ts",
+          "hash": "15890614610651995745"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/prisma/migrations/20250617130342_initial_setup/migration.sql",
+          "hash": "16451861882054147287"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/prisma/migrations/migration_lock.toml",
+          "hash": "872437952673290735"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/prisma/prisma.module.ts",
+          "hash": "10698808516542012913"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/prisma/prisma.service.ts",
+          "hash": "7249122383903260675"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/prisma/productsList.ts",
+          "hash": "11788522642431604804"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/prisma/schema.prisma",
+          "hash": "10709945960662699814"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/prisma/seed.ts",
+          "hash": "3291911336275574816"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/project.json",
+          "hash": "1905157598992949564"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/app/app.controller.spec.ts",
+          "hash": "7647647754668916054"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/app/app.controller.ts",
+          "hash": "15276891910009544695"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/app/app.module.ts",
+          "hash": "2840676511161807134"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/app/app.service.spec.ts",
+          "hash": "13111976464657524091"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/app/app.service.ts",
+          "hash": "9967902337593410053"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/main.ts",
+          "hash": "11523538412187654455"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/products/dto/create-product.input.ts",
+          "hash": "14875565601506888998"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/products/dto/update-product.input.ts",
+          "hash": "685048381325173582"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/products/entities/product.entity.ts",
+          "hash": "15374592170692712406"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/products/products.module.ts",
+          "hash": "12682504437303327139"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/products/products.resolver.spec.ts",
+          "hash": "645246980248011059"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/products/products.resolver.ts",
+          "hash": "12253152786980041058"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/products/products.service.spec.ts",
+          "hash": "12078006542631247963"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/src/products/products.service.ts",
+          "hash": "5534602935826001704"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/tsconfig.app.json",
+          "hash": "11728618664080294556"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/tsconfig.json",
+          "hash": "3490524966360018312"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/tsconfig.spec.json",
+          "hash": "6622138706846345436"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be/webpack.config.js",
+          "hash": "14828179851888196394"
+        }
+      ],
+      "pet-markt-be-e2e": [
+        {
+          "file": "pet-marktt/app/pet-markt-be-e2e/eslint.config.mjs",
+          "hash": "2624537849564014525"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be-e2e/jest.config.ts",
+          "hash": "4931009091923324168"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be-e2e/project.json",
+          "hash": "12406527276223253702"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be-e2e/src/pet-markt-be/pet-markt-be.spec.ts",
+          "hash": "110394728024017389"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be-e2e/src/support/global-setup.ts",
+          "hash": "10817858795115919263"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be-e2e/src/support/global-teardown.ts",
+          "hash": "14210317125869451873"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be-e2e/src/support/test-setup.ts",
+          "hash": "15521797170623961900"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be-e2e/tsconfig.json",
+          "hash": "15443990093475294480"
+        },
+        {
+          "file": "pet-marktt/app/pet-markt-be-e2e/tsconfig.spec.json",
+          "hash": "14954872453723519891"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "16381815801583768323"
+      },
+      {
+        "file": ".nx/nxw.js",
+        "hash": "11301648124127104610"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "15113672247534006936"
+      },
+      {
+        "file": "nx",
+        "hash": "17165975525224888679"
+      },
+      {
+        "file": "nx.bat",
+        "hash": "16119536321561623970"
+      },
+      {
+        "file": "nx.json",
+        "hash": "7453197175343594547"
+      },
+      {
+        "file": "pet-markt-assets/README.md",
+        "hash": "2310844372466497379"
+      },
+      {
+        "file": "pet-markt-assets/docker-compose.yml",
+        "hash": "12992855400054591178"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/aquarium-filter.jpg",
+        "hash": "12515912068147215110"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/aquarium-kit.jpg",
+        "hash": "5995695154777164038"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/bird-cage.jpg",
+        "hash": "13515539036711518062"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/bird-seed-mix.jpg",
+        "hash": "4792117627885208556"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/bird-toys.jpg",
+        "hash": "17998285197394559095"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/cat-bed.jpg",
+        "hash": "980737703622573470"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/cat-grooming-brush.jpg",
+        "hash": "17780450765964119212"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/cat-scratch-post.jpg",
+        "hash": "13544818482759627146"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/catnip-cat-toy.jpg",
+        "hash": "17484712753879216778"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/dog-food.jpg",
+        "hash": "18148261644133587885"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/dog-leash.jpg",
+        "hash": "9178964285888099449"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/dog-treats-2.jpg",
+        "hash": "8459875971947016451"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/dog-treats.jpg",
+        "hash": "4529866405345488274"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/fish-food-flakes.jpg",
+        "hash": "1138732318091905810"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/hamster-wheel.jpg",
+        "hash": "13082977446285060552"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/reptile-food.jpg",
+        "hash": "3546317373135337452"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/reptile-heating-pad.jpg",
+        "hash": "6240518067563844507"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/reptire-terrarium.jpg",
+        "hash": "4140074908881767183"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/script.js",
+        "hash": "9435747888208650296"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/small-anim-cage.jpg",
+        "hash": "8035947754865892697"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/small-animal-bedding.jpg",
+        "hash": "17720534006223732448"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/public/products/squeaky-toy.jpg",
+        "hash": "1701918375303488332"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/.env",
+        "hash": "322033468034429109"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/auth/login/login.component.html",
+        "hash": "170662744492531160"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/auth/login/login.component.ts",
+        "hash": "5851840346875019148"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/auth/signup/signup.component.html",
+        "hash": "14675866337306524632"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/auth/signup/signup.component.ts",
+        "hash": "14659036987286507148"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/cart/cart-in-header-template.html",
+        "hash": "7538869173701260245"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/cart/cart.component.html",
+        "hash": "4536527252579673925"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/checkout/checkout.component.html",
+        "hash": "7398436869143623485"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/checkout/components/checkout-failure/checkout-failure.component.html",
+        "hash": "8598367820420694138"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/checkout/components/checkout-success/checkout-success.component.html",
+        "hash": "10940990434757431386"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/components/header/header-auth.html",
+        "hash": "2517113676602738861"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/components/header/header-cart.html",
+        "hash": "708873318813340928"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/components/header/header.component.html",
+        "hash": "4642938802173674220"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/components/header/header.component.scss",
+        "hash": "18022661783634907695"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/components/product-card/product-card.component.html",
+        "hash": "15956752920245785338"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/components/product-card/product-card.component.scss",
+        "hash": "1221513850500226857"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/home/home.component.html",
+        "hash": "11093044989103536078"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/home/home.component.ts",
+        "hash": "4471814198539011207"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/order/order.component.html",
+        "hash": "7735117183066422116"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/orders/components/order-details/order-details.component.html",
+        "hash": "2487498419709151681"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/orders/orders.component.html",
+        "hash": "12974631939269364615"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/products/products.component.html",
+        "hash": "3765838144070167838"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/app/utils/untilDestroyed.ts",
+        "hash": "2839009369582830062"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/environments/environment.ts",
+        "hash": "16963252225709538213"
+      },
+      {
+        "file": "pet-markt-assets/pet-markt-web/src/vite-env.d.ts",
+        "hash": "9039188012108973335"
+      },
+      {
+        "file": "pet-marktt/.gitignore",
+        "hash": "18435103667633526488"
+      },
+      {
+        "file": "pet-marktt/.prettierignore",
+        "hash": "14688272390704683536"
+      },
+      {
+        "file": "pet-marktt/.prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "pet-marktt/.vscode/extensions.json",
+        "hash": "4637156562308165301"
+      },
+      {
+        "file": "pet-marktt/README.md",
+        "hash": "3977828888834657177"
+      },
+      {
+        "file": "pet-marktt/eslint.config.mjs",
+        "hash": "10770449096712831357"
+      },
+      {
+        "file": "pet-marktt/jest.config.ts",
+        "hash": "6870352021923392442"
+      },
+      {
+        "file": "pet-marktt/jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "pet-marktt/nx.json",
+        "hash": "5770900376614631897"
+      },
+      {
+        "file": "pet-marktt/package-lock.json",
+        "hash": "15174241102648519891"
+      },
+      {
+        "file": "pet-marktt/package.json",
+        "hash": "10454550164722136504"
+      },
+      {
+        "file": "pet-marktt/packages/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "pet-marktt/tsconfig.base.json",
+        "hash": "16936441711144470533"
+      }
+    ]
+  }
+}

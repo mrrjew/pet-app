@@ -1,0 +1,186 @@
+{
+  "pet-marktt/app/pet-markt-be": {
+    "root": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.args": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.args": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.continuous": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.dependsOn": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.buildTarget": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.runBuildTargetDependencies": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "pet-marktt/app/pet-markt-be/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "pet-marktt/app/pet-markt-be-e2e": {
+    "root": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.pet-markt-be": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.executor": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.outputs": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.dependsOn": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.jestConfig": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.e2e.options.passWithNoTests": [
+      "pet-marktt/app/pet-markt-be-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

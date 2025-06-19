@@ -1,0 +1,103 @@
+{
+  "nodes": {
+    "pet-markt-be-e2e": {
+      "name": "pet-markt-be-e2e",
+      "type": "e2e",
+      "data": {
+        "root": "pet-marktt/app/pet-markt-be-e2e",
+        "name": "pet-markt-be-e2e",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "projectType": "application",
+        "implicitDependencies": [
+          "pet-markt-be"
+        ],
+        "targets": {
+          "e2e": {
+            "executor": "@nx/jest:jest",
+            "outputs": [
+              "{workspaceRoot}/coverage/{e2eProjectRoot}"
+            ],
+            "options": {
+              "jestConfig": "app/pet-markt-be-e2e/jest.config.ts",
+              "passWithNoTests": true
+            },
+            "dependsOn": [
+              "pet-markt-be:build",
+              "pet-markt-be:serve"
+            ],
+            "configurations": {},
+            "parallelism": true
+          }
+        },
+        "tags": []
+      }
+    },
+    "pet-markt-be": {
+      "name": "pet-markt-be",
+      "type": "app",
+      "data": {
+        "root": "pet-marktt/app/pet-markt-be",
+        "name": "pet-markt-be",
+        "$schema": "../../node_modules/nx/schemas/project-schema.json",
+        "sourceRoot": "app/pet-markt-be/src",
+        "projectType": "application",
+        "tags": [],
+        "targets": {
+          "build": {
+            "executor": "nx:run-commands",
+            "options": {
+              "command": "webpack-cli build",
+              "args": [
+                "node-env=production"
+              ]
+            },
+            "configurations": {
+              "development": {
+                "args": [
+                  "node-env=development"
+                ]
+              }
+            },
+            "parallelism": true
+          },
+          "serve": {
+            "continuous": true,
+            "executor": "@nx/js:node",
+            "defaultConfiguration": "development",
+            "dependsOn": [
+              "build"
+            ],
+            "options": {
+              "buildTarget": "pet-markt-be:build",
+              "runBuildTargetDependencies": false
+            },
+            "configurations": {
+              "development": {
+                "buildTarget": "pet-markt-be:build:development"
+              },
+              "production": {
+                "buildTarget": "pet-markt-be:build:production"
+              }
+            },
+            "parallelism": true
+          }
+        },
+        "implicitDependencies": []
+      }
+    }
+  },
+  "externalNodes": {},
+  "dependencies": {
+    "pet-markt-be-e2e": [
+      {
+        "source": "pet-markt-be-e2e",
+        "target": "pet-markt-be",
+        "type": "implicit"
+      }
+    ],
+    "pet-markt-be": []
+  },
+  "version": "6.0",
+  "errors": [],
+  "computedAt": 1750358940823
+}
